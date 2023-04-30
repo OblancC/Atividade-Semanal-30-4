@@ -1,1 +1,1 @@
-Arquivos Aqui
+Imagens Aqui
