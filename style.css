@@ -18,10 +18,6 @@
     --cor-botao: #f3ce5e;
 }
 
-.shop img{
-    position: relative;
-}
-
 .shop{ 
     background-color: var(--cor-background);
     justify-content: center;
@@ -42,8 +38,7 @@
     font-weight: bold;
 }
 
-.container-t{
-    justify-content: center;
-    display: flex;
-    position: absolute;
+.shop img{
+    position: relative;
 }
+
