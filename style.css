@@ -1,4 +1,4 @@
-*{
+* {
     line-height: 1.5;
     padding: 0;
     margin: 0;
@@ -6,11 +6,18 @@
     list-style-type: none;
     text-decoration: none;
     scroll-behavior: smooth;
-    scroll-padding-top: 2rem ;
+    scroll-padding-top: 2rem;
 }
 
-:root{
-    --cor-home:#663128;
+.shop {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--cor-background);
+    background-image: url(./imagens/Image\ -\ EXPORTAR\ -\ Background.png);
+}
+
+:root {
+    --cor-home: #663128;
     --cor-primaria: #7c4032;
     --cor-background: #fef4de;
     --cor-input: #e5af99;
@@ -18,18 +25,10 @@
     --cor-botao: #f3ce5e;
 }
 
-.shop{ 
-    background-color: var(--cor-background);
-    justify-content: center;
-    display: flex;
-}
-
-.shop h1{
+.shop h1 {
     padding-top: 50px;
     justify-content: center;
     display: flex;
-    align-items: center;
-    position: absolute;
     color: var(--cor-primaria);
     font-family: 'Poppins', sans-serif;
     font-size: 64px;
@@ -38,7 +37,151 @@
     font-weight: bold;
 }
 
-.shop img{
-    position: relative;
+.container-t {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    margin-left: 400px;
+    margin-right: 400px;
+    row-gap: 50px;
 }
 
+.container-t .bloco-1 {
+    background-color: white;
+    width: 512px;
+    height: 192px;
+    border-radius: 20px;
+    text-align: center;
+    border: 1px solid #7C4032
+}
+
+.container-t .bloco-1 h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: #7C4032;
+    margin-top: 20px;
+    margin-left: 50px;
+    text-align: left;
+}
+
+.container-t .bloco-1 p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #7C4032;
+    margin-top: 10px;
+    margin-left: 50px;
+    text-align: left;
+}
+
+.container-t .bloco-2 {
+    background-color: white;
+    width: 512px;
+    height: 192px;
+    border-radius: 20px;
+    text-align: center;
+    border: 1px solid #7C4032
+}
+
+.container-t .bloco-2 h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: #7C4032;
+    margin-top: 20px;
+    margin-left: 50px;
+    text-align: left;
+}
+
+.container-t .bloco-2 p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #7C4032;
+    margin-top: 10px;
+    margin-left: 50px;
+    text-align: left;
+}
+
+.container-t .bloco-3 {
+    background-color: white;
+    width: 512px;
+    height: 192px;
+    border-radius: 20px;
+    text-align: center;
+    border: 1px solid #7C4032
+}
+
+.container-t .bloco-3 h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: #7C4032;
+    margin-top: 20px;
+    margin-left: 50px;
+    text-align: left;
+}
+
+.container-t .bloco-3 p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #7C4032;
+    margin-top: 10px;
+    margin-left: 50px;
+    text-align: left;
+}
+
+.container-t .bloco-4 {
+    background-color: white;
+    width: 512px;
+    height: 192px;
+    border-radius: 20px;
+    text-align: center;
+    border: 1px solid #7C4032
+}
+
+.container-t .bloco-4 h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: #7C4032;
+    margin-top: 20px;
+    margin-left: 50px;
+    text-align: left;
+}
+
+.container-t .bloco-4 p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #7C4032;
+    margin-top: 10px;
+    margin-left: 50px;
+    text-align: left;
+}
+
+.botao-t {
+    background-color: #F3CE5E;
+    width: 210px;
+    height: 66px;
+    box-sizing: border-box;
+    border: none;
+    color: var(--cor-primaria);
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 61px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+    box-shadow: 0px 20px 40px rgba(243, 206, 94, 0.2);
+}
+
+.stars-t {
+    margin-top: 11px;
+    margin-left: 50px;
+    height: 20px;
+    width: 120px;
+    display: flex;
+    justify-content: left;
+}
