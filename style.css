@@ -7,7 +7,6 @@
     text-decoration: none;
     scroll-behavior: smooth;
     scroll-padding-top: 2rem ;
-    font-family: 'Roboto', sans-serif;
 }
 
 :root{
@@ -17,4 +16,34 @@
     --cor-input: #e5af99;
     --cor-footer: #55352d;
     --cor-botao: #f3ce5e;
+}
+
+.shop img{
+    position: relative;
+}
+
+.shop{ 
+    background-color: var(--cor-background);
+    justify-content: center;
+    display: flex;
+}
+
+.shop h1{
+    padding-top: 50px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    color: var(--cor-primaria);
+    font-family: 'Poppins', sans-serif;
+    font-size: 64px;
+    line-height: 96px;
+    line-height: 100%;
+    font-weight: bold;
+}
+
+.container-t{
+    justify-content: center;
+    display: flex;
+    position: absolute;
 }
