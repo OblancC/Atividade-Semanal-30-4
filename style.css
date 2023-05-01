@@ -1,0 +1,20 @@
+*{
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem ;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root{
+    --cor-home:#663128;
+    --cor-primaria: #7c4032;
+    --cor-background: #fef4de;
+    --cor-input: #e5af99;
+    --cor-footer: #55352d;
+    --cor-botao: #f3ce5e;
+}
