@@ -22,15 +22,15 @@
     justify-content: center;
     align-items: center;
     font-family: 'Poppins', sans-serif;
-    width: 100vw;
+    width: auto;
     height: 100vh;
     background-color:var(--cor-background);
 }
 
 .top-border{
-    height: 100px;
-    margin-bottom: -100px;
-    width: 100vw;
+    height: 115px;
+    margin-bottom: -115px;
+    width: auto;
     background-color: var(--cor-primaria);
     clip-path: path("M0 -38.6976C1010.57 -38.6976 1689.74 63.7675 1903 115V-274H0V-38.6976Z");
 }
@@ -116,9 +116,8 @@
     align-items: center;
     justify-content: center;
     display: flex;
-    width: 100vw;
     height: 100vh;
-    padding-top: 20px;
+    width: auto;
     background-color: var(--cor-primaria);
 }
 
